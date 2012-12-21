@@ -18,6 +18,7 @@
 		A3EE29CF168418F10061CFF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EE29B6168418F00061CFF5 /* Foundation.framework */; };
 		A3EE29D7168418F10061CFF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3EE29D5168418F10061CFF5 /* InfoPlist.strings */; };
 		A3EE29DA168418F10061CFF5 /* Nov1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EE29D9168418F10061CFF5 /* Nov1Tests.m */; };
+		A3EE29E5168419840061CFF5 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EE29E4168419840061CFF5 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		A3EE29D6168418F10061CFF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3EE29D8168418F10061CFF5 /* Nov1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov1Tests.h; sourceTree = "<group>"; };
 		A3EE29D9168418F10061CFF5 /* Nov1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov1Tests.m; sourceTree = "<group>"; };
+		A3EE29E31684196D0061CFF5 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		A3EE29E4168419840061CFF5 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				A3EE29C3168418F10061CFF5 /* Nov1AppDelegate.h */,
 				A3EE29C4168418F10061CFF5 /* Nov1AppDelegate.m */,
 				A3EE29BB168418F10061CFF5 /* Supporting Files */,
+				A3EE29E31684196D0061CFF5 /* View.h */,
+				A3EE29E4168419840061CFF5 /* View.m */,
 			);
 			path = Nov1;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				A3EE29C1168418F10061CFF5 /* main.m in Sources */,
 				A3EE29C5168418F10061CFF5 /* Nov1AppDelegate.m in Sources */,
+				A3EE29E5168419840061CFF5 /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
